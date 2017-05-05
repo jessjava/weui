@@ -282,10 +282,10 @@ $(function () {
     }
 
     function init(){
-        preload();
+        //preload();
         fastClick();
         androidInputBugFix();
-        setJSAPI();
+        //setJSAPI();
         setPageManager();
 
         window.pageManager = pageManager;

@@ -12,6 +12,18 @@
     }
 }
 
+.weui-btn_plain-orange {
+    color: @weuiBtnPlainOrangeColor;
+    border: 1px solid @weuiBtnPlainOrangeBorderColor;
+    &:not(.weui-btn_plain-disabled):active {
+        color:@weuiBtnPlainOrangeActiveColor;
+        border-color: @weuiBtnPlainOrangeActiveBorderColor;
+    }
+    &:after {
+        border-width: 0;
+    }
+}
+
 .weui-btn_plain-default {
     color: @weuiBtnPlainDefaultColor;
     border: 1px solid @weuiBtnPlainDefaultBorderColor;
